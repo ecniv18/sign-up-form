@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+
+    <link rel="stylesheet" href="./css/moder-css-reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="image-section">
+        <h1 class="logo">ODIN</h1>
+      </section>
+      <section class="form-section">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.<br />
+          Sign up now to get started.
+        </p>
+
+        <p>You know you want to:</p>
+        <form>
+          <fieldset class="main-field">
+            <legend class="form-heading">Let's do this</legend>
+
+            <div class="leftside-form">
+              <label for="first-name"
+                ><span>FIRST NAME:</span>
+                <input type="text" name="first-name" id="first-name" required
+              /></label>
+              <label for="email"
+                ><span>EMAIL:</span
+                ><input type="email" name="email" id="email" required
+              /></label>
+              <label for="password"
+                ><span>PASSWORD:</span
+                ><input type="password" name="password" id="password" required
+              /></label>
+            </div>
+            <div class="rightside-form">
+              <label for="last-name"
+                ><span>LAST NAME:</span
+                ><input type="text" name="last-name" id="last-name" required
+              /></label>
+              <label for="phone-number"
+                ><span>PHONE NUMBER:</span>
+                <input type="tel" name="phone-number" id="phone-number" />
+              </label>
+              <label for="confirm-password"
+                ><span>CONFIRM PASSWORD:</span>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  required
+              /></label>
+            </div>
+          </fieldset>
+          <button type="submit">Create Account</button>
+          <p>Already have an Account? <a href="#">Log in</a></p>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
